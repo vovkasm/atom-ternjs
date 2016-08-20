@@ -1,6 +1,6 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
-  'atom-text-editor[data-grammar="source js"]': [
+  'atom-text-editor[data-grammar^="source js"]': [
     {
       label: 'Atom Ternjs'
       submenu: [
