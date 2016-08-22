@@ -2,7 +2,7 @@
 
 export default {
   ecmaVersion: {
-    doc: 'The ECMAScript version to parse. Should be either 5 or 6. Default is 6.'
+    doc: 'The ECMAScript version to parse. Should be either 5, 6 or 7. Default is 6.'
   },
   libs: {
     browser: {
@@ -10,6 +10,12 @@ export default {
     },
     jquery: {
       doc: 'JQuery'
+    },
+    underscore: {
+      doc: 'underscore'
+    },
+    chai: {
+      doc: 'chai'
     }
   },
   loadEagerly: {
